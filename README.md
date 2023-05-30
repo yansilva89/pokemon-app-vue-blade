@@ -29,8 +29,8 @@ Obs: É necessário uso de Docker Compose para execução de projeto.
 
 ![Home](https://github.com/yansilva89/pokemon-app-vue-blade/assets/27960513/6078ce5f-cae7-41ac-8218-0a97598d63a5)
 ![Menu](https://github.com/yansilva89/pokemon-app-vue-blade/assets/27960513/c9799b17-512d-41f9-b29b-0e95b6ca5575)
-![HomeD](https://github.com/yansilva89/pokemon-app-vue-blade/assets/27960513/4acdbb19-7710-483c-a3ed-d8259b96cc47)
 ![Listagem](https://github.com/yansilva89/pokemon-app-vue-blade/assets/27960513/86a4cd30-64ac-41bc-8585-c72da4c0017a)
-![Lista](https://github.com/yansilva89/pokemon-app-vue-blade/assets/27960513/04fa2c53-51ca-4ced-bc4b-c468fd25f14e)
 ![Profile](https://github.com/yansilva89/pokemon-app-vue-blade/assets/27960513/6f0edfbf-7ddc-42dc-af41-0a989a32cf09)
+![HomeD](https://github.com/yansilva89/pokemon-app-vue-blade/assets/27960513/4acdbb19-7710-483c-a3ed-d8259b96cc47)
+![Lista](https://github.com/yansilva89/pokemon-app-vue-blade/assets/27960513/04fa2c53-51ca-4ced-bc4b-c468fd25f14e)
 ![Perfil](https://github.com/yansilva89/pokemon-app-vue-blade/assets/27960513/282ee27d-4ee6-4483-91e5-65db7b1fea6e)
