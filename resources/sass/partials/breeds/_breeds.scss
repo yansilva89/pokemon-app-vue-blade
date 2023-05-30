@@ -1,0 +1,22 @@
+.wrapper-breeds {
+  @extend .wrapper;
+  background-image: url('../../../images/list-bg.png');
+  background-size: cover;
+  @media (min-width: 859px) {
+    background-image:  url('../../../images/bg-desktop-layer-one.png'), url('../../../images/bg-desktop-layer-two.png'), url('../../../images/list-bg.png');
+    background-position: center 455px, center 431px, center center;  
+    background-repeat: no-repeat;
+    background-size: 100% 352.07px, 100% 352.07px, cover;
+  }
+  &__content {
+    position: relative;
+    @extend .content;
+    overflow: scroll;
+    &::-webkit-scrollbar{
+      display: none;
+    }
+    @media (min-width: 859px) {
+      overflow: hidden;
+    }
+  }
+}

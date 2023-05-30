@@ -1,0 +1,8 @@
+.wrapper-list {
+  @extend .wrapper;
+  background-image: url('../../../images/list-bg.png');
+  background-size: cover;
+  &__content {
+    @extend .content;
+  }
+}

@@ -1,0 +1,87 @@
+// Fonts
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+// Variables
+@import 'variables';
+// Reset
+@import 'reset';
+// Mixins
+@import 'mixins';
+// Partials
+@import 'header'; // Header
+@import './partials/welcome/welcome'; // Home
+@import './partials/list/list'; // List
+@import './partials/breeds/breeds'; // Breeds
+
+body {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding-top: 60px;
+}
+
+.content {
+  min-width: 320px;
+  max-width: 860px;
+  width: 320px; 
+  @include desktop {
+    width: 860px;
+    padding: 0;
+  }
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+// Type BG Colors Pokemons
+.normal {background-color: $normal}
+.fire {background-color: $fire}
+.fighting {background-color: $fighting}
+.water {background-color: $water}
+.grass {background-color: $grass}
+.poison {background-color: $poison}
+.electric {background-color: $electric}
+.ground {background-color: $ground}
+.rock {background-color: $rock}
+.bug {background-color: $bug}
+.dragon {background-color: $dragon}
+.ghost {background-color: $ghost}
+.dark {background-color: $dark}
+.fairy {background-color: $fairy}
+.steel {background-color: $steel}
+.psychic {background-color: $psychic}
+.ice {background-color: $ice}
+.flying {background-color: $flying}
+// Type Text Colors Pokemons
+.normal-text {color: $normal}
+.fire-text {color: $fire}
+.fighting-text {color: $fighting}
+.water-text {color: $water}
+.grass-text {color: $grass}
+.poison-text {color: $poison}
+.electric-text {color: $electric}
+.ground-text {color: $ground}
+.rock-text {color: $rock}
+.bug-text {color: $bug}
+.dragon-text {color: $dragon}
+.ghost-text {color: $ghost}
+.dark-text {color: $dark}
+.fairy-text {color: $fairy}
+.steel-text {color: $steel}
+.psychic-text {color: $psychic}
+.ice-text {color: $ice}
+.flying-text {color: $flying}
